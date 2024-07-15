@@ -33,7 +33,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.2.2",
     "@changesets/cli": "^2.26.2",
-    "@simplewebauthn/typescript-types": "^8.0.0",
+    "@simplewebauthn/types": "^10.0.0",
     "@types/react": "^18.0.25",
     "expo-module-scripts": "^3.4.1",
     "expo-modules-core": "^1.11.9",
