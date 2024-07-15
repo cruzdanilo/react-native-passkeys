@@ -8,7 +8,7 @@ import base64 from "@hexagon/base64";
 import {
 	Base64URLString,
 	PublicKeyCredentialUserEntityJSON,
-} from "@simplewebauthn/typescript-types";
+} from "@simplewebauthn/types";
 
 // ! taken from https://github.com/MasterKale/SimpleWebAuthn/blob/e02dce6f2f83d8923f3a549f84e0b7b3d44fa3da/packages/browser/src/helpers/bufferToBase64URLString.ts
 /**

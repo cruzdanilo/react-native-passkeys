@@ -8,7 +8,7 @@ import type {
 	PublicKeyCredentialDescriptorJSON,
 	PublicKeyCredentialUserEntityJSON,
 	AuthenticatorAttestationResponseJSON,
-} from "@simplewebauthn/typescript-types";
+} from "@simplewebauthn/types";
 
 export type {
 	AttestationConveyancePreference,
@@ -29,7 +29,7 @@ export type {
 	PublicKeyCredentialUserEntity,
 	RegistrationCredential,
 	UserVerificationRequirement,
-} from "@simplewebauthn/typescript-types";
+} from "@simplewebauthn/types";
 
 export type {
 	Base64URLString,
