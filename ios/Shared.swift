@@ -61,8 +61,6 @@ internal enum AttestationConveyancePreference: String, Enumerable {
             return ASAuthorizationPublicKeyCredentialAttestationKind.indirect
         case .enterprise:
             return ASAuthorizationPublicKeyCredentialAttestationKind.enterprise
-        case .none:
-            return ASAuthorizationPublicKeyCredentialAttestationKind.none
         default:
             return ASAuthorizationPublicKeyCredentialAttestationKind.none
         }
@@ -88,8 +86,6 @@ internal enum UserVerificationRequirement: String, Enumerable {
         switch self {
         case .discouraged:
             return ASAuthorizationPublicKeyCredentialUserVerificationPreference.discouraged
-        case .preferred:
-            return ASAuthorizationPublicKeyCredentialUserVerificationPreference.preferred
         case .required:
             return ASAuthorizationPublicKeyCredentialUserVerificationPreference.required
         default:
@@ -110,8 +106,6 @@ internal enum ResidentKeyRequirement: String, Enumerable {
         switch self {
         case .discouraged:
             return ASAuthorizationPublicKeyCredentialResidentKeyPreference.discouraged
-        case .preferred:
-            return ASAuthorizationPublicKeyCredentialResidentKeyPreference.preferred
         case .required:
             return ASAuthorizationPublicKeyCredentialResidentKeyPreference.required
         default:
