@@ -25,7 +25,7 @@ internal struct RegistrationResponseJSON: Record {
     var clientExtensionResults: AuthenticationExtensionsClientOutputsJSON?
 
     @Field
-    var type: PublicKeyCredentialType = .publicKey
+    var type: String = PublicKeyCredentialType.publicKey.rawValue
 }
 
 /**
@@ -60,7 +60,7 @@ internal struct AuthenticatorAttestationResponseJSON: Record {
 internal struct AuthenticationResponseJSON: Record {
     
     @Field
-    var type: PublicKeyCredentialType = .publicKey
+    var type: String = PublicKeyCredentialType.publicKey.rawValue
     
     // - base64URL version of rawId
     @Field
