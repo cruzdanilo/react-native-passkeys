@@ -36,8 +36,8 @@
     "@changesets/cli": "^2.26.2",
     "@simplewebauthn/types": "^10.0.0",
     "@types/react": "^18.0.25",
-    "expo-module-scripts": "^3.4.1",
-    "expo-modules-core": "^1.11.9",
+    "expo-module-scripts": "^3.5.2",
+    "expo-modules-core": "^1.12.19",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
